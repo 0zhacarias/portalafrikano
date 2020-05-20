@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Baskerville', serif;
+    /*font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;*/
+
+}
+nav .menubot{
+    background: linear-gradient(170deg, #4e555b,#0c5460,tomato);
+}
+nav .navbar-brand{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav a:hover{
+    border-bottom: tomato 1px solid;
+}
+
+nav #navPana .nav-item{
+    font-weight: bolder;
+    font-size: 1rem;
+    margin-left: 40px;
+}
+
+/*conteudo do artigo panAfrika*/
+.fundo_titulo{
+    margin-top: 80px;
+    font-size:2rem;
+    height: 150px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    max-height: 25vh;
+    background: linear-gradient(to right, tomato, #004e33);
+}
+.font-sobre-contac{
+    font-size: 1.6rem;
+    width: 80%;
+    border-radius: 5%;
+}
+.fundo_titulo p{
+    position:absolute;
+    top: 120px;
+}
+
+span.autor{
+    font-size: .9rem;
+    position: absolute;
+    top: 180px;
+    color: #000;
+    font-weight: bold;
+    text-transform: initial;
+}
+span.autor a{
+    color: #15abff;
+}
+.horit {
+    margin: 0;
+    font-size: 2rem;
+}
+.forca{
+    margin-top:2%;
+    height:30vh;
+    width: 100%;
+}
+
+section.corpo article h2{
+    margin-top: 5%;
+}
+section.corpo article p{
+    font-size: 1.4rem;
+    color: #666;
+}
+
+aside.pnoticia{
+    box-shadow: 0 0 1px rgba(0,0,0,.1);
+}
+aside.pnoticia .tamanho{
+    width: 95%;
+}
+
+.pnoticia h1, .pnoticia h3{
+    }
+.pnoticia p{
+    font-size: 1.2rem;
+    padding-bottom:4px;
+    color: #666;
+}
+.pnoticia em{
+    color: #444;
+    font-weight: bolder;
+    font-size: .9rem;
+}
+img.malcolm{
+    height: 80%;
+}
+.arqrela{
+    margin-top: 10px;
+    left: 15px;
+    font-size: 0.8rem;
+}
+aside.arqrela ul li{
+    list-style: none;
+    margin-bottom: 5px;
+    text-align: left;
+    margin-left: 1%;
+    font-size: .8rem;
+}
+
+aside.arqrela ul li a, em a {
+    color: #005333;
+    font-weight:bolder;
+    text-transform: initial;
+}
+aside.arqrela li a:hover{
+    color: rgb(13, 130, 189);
+}
+
+.arqrela .artigos, .maisvisto {
+    /*border-left: 2px solid #0b2e13;*/
+    box-shadow: 0 0 2px rgba(0,0,0,.2);
+    padding: 3%;
+
+}
+.arqrela .maisvisto q, .referenca q{
+    font-size: 1.1rem;
+    border-bottom: 4px double rgba(3, 3, 6, 0.37);
+}
+.arqrela ul.maisvisto li, .referenca li{
+    text-align: justify;
+    position: relative;
+    top: 10px;
+}
+/*fechar artigoPanAfricano*/
+article p{
+    text-align: justify;
+    font-size: 2rem;
+    top: 5%;
+    position: relative;
+}
+article .imgt{
+  background: #fcfcfc;
+ text-align: center;
+}
+article.referenca p{
+    font-size: 1rem;
+    color: #666;
+    text-align: left;
+}
+.imgt img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 10px 8px 4px rgba(0,0,0,.5);
+}
+section.Arquivos-recente{
+    background: rgba(0, 60, 9, 0.05);
+}
+section.Arquivos-recente .card-text{
+    text-align: justify;
+}
+section iframe{
+   height: 100%;
+    width: 100%;
+}
+/*Todos artigos*/
+section .card {
+    box-shadow: 1px 1px 2px rgba(0,0,0,.1);
+
+}
+section .card:hover{
+    border-radius: 6%;
+    border: 2px solid #fff
+}
+section .card:hover img{
+     border-top-left-radius:10%;
+     border-top-right-radius:10%;
+ }
+.t{
+    position: absolute;
+    opacity: 0.5;
+    background-size: cover;
+}
+.t img{
+    height: 120vh;
+    width: 300%;
+
+}
+section.todosartigos{
+    display: flex;
+    justify-items:center ;
+    position: relative;
+    width: 80%;
+}
+section.todosartigos .card-title{
+    font-size: 0.9rem;
+    font-weight: bolder;
+    text-align: center;
+    border-bottom: 1px solid #cccccc;
+    text-transform: uppercase;
+}
+section.todosartigos .card-text{
+    font-size: 1rem;
+    text-align: justify;
+}
+section.todosartigos button:hover a{
+    color: white;
+    font-weight: bold;
+}
+section.todosartigos.card{
+    border-radius: 5%;
+    border: 1px dashed #1c7430;
+
+}
+button .btn{
+    height: 100px;
+    width: 400px;
+}
+/**Quem somos**/
+.qsomos{
+    padding-bottom: 10px;
+}
+.qsomos .icon-box{
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    margin: 50px 0 40px 0;
+    background: #fff;
+    box-shadow: 0 10px 26px 0 rgba(68,88,144,.14);
+    transition: all .3s ease-in-out;
+    text-align: center;
+    border: 2px solid #fff;
+}
+.qsomos .icon{
+    margin: 0 auto 20px auto;
+    padding-top: 17px;
+    display: table;
+}
+.qsomos img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+/**Se for um icon usar isso
+.qsomos .icon i{
+    font-size: 15px;
+    line-height:10px;
+}
+.qsomos .box-rosa .icon i{
+    color: #ff689b;
+}
+**/
+.qsomos .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.qsomos .title a{
+    color: #111;
+}
+.qsomos .descricacao{
+    font-size:15px;
+    line-height: 28px;
+    margin-bottom: 0;
+}
+
+.qsomos .box-rosa:hover{
+    border-color: #ff689b;
+}
+.qsomos .box-castanho:hover{
+border-color: #e0a800;
+}
+.qsomos .box-preto:hover{
+    border-color: black;
+}
+.qsomos .box-Azul:hover{
+    border-color: #046010;
+}
+
+footer{
+    text-align: center;
+    clear: both;
+    background: linear-gradient(270deg, #4e555b,tomato,#0c5460);
+    margin-bottom: 20px;
+
+}
+footer a{
+    position: relative;
+    color: #fff;
+    padding-bottom: 20px;
+
+}
+
